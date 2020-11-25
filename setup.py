@@ -5,7 +5,8 @@ from django_autoconfig.version import __VERSION__
 import sys
 
 INSTALL_REQUIRES = [
-    'django < 2.3'
+    'django < 2.3',
+    'gitversion'
 ]
 
 if sys.version_info < (2, 7):
